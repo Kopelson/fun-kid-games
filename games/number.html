@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           Number Game
+        </title>
+        <link rel="stylesheet" href="../index.css" />
+        <link rel="stylesheet" href="./number.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="../index.html"><h1>🦄 Zoey Games</h1></a>
+            </nav>
+        </header>
+        <div class="inline-card">
+            <h1 id="emoji-label"></h1>
+            <a class="play-button-numbers" onclick="displayRandomAmountOfEmoji()">Play</a>
+            <span class="hide" id="alert"></span>
+        </div>
+        <div class="container game-container">
+            <div class="random-emoji">
+                <h1 id="emojis">Click play to start!</h1>
+            </div>
+            <div class='row hide' id="number-choices">
+                <div class="card" onclick="checkNum(1)">
+                    <h2>1</h2>
+                </div>
+                <div class="card" onclick="checkNum(2)">
+                    <h2>2</h2>
+                </div>
+                <div class="card" onclick="checkNum(3)">
+                    <h2>3</h2>
+                </div>
+                <div class="card" onclick="checkNum(4)">
+                    <h2>4</h2>
+                </div>
+                <div class="card" onclick="checkNum(5)">
+                    <h2>5</h2>
+                </div>
+                <div class="card" onclick="checkNum(6)">
+                    <h2>6</h2>
+                </div>
+                <div class="card" onclick="checkNum(7)">
+                    <h2>7</h2>
+                </div>
+                <div class="card" onclick="checkNum(8)">
+                    <h2>8</h2>
+                </div>    
+                <div class="card" onclick="checkNum(9)">
+                    <h2>9</h2>
+                </div>
+                <div class="card" onclick="checkNum(10)">
+                    <h2>10</h2>
+                </div>     
+            </div>
+        </div>
+    </body>
+    <script src="number.js"></script> 
+</html>
+
